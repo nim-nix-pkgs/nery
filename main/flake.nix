@@ -11,6 +11,7 @@
   inputs.src-nery-main.ref   = "refs/heads/main";
   inputs.src-nery-main.owner = "David-Kunz";
   inputs.src-nery-main.repo  = "Nery";
+  inputs.src-nery-main.dir   = "";
   inputs.src-nery-main.type  = "github";
   
   inputs."fusion".owner = "nim-nix-pkgs";
