@@ -2,13 +2,86 @@
   "name": "nery",
   "url": "https://github.com/David-Kunz/Nery",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "nery",
+      "version": "0.1.1",
+      "author": "Dr. David Alexander Kunz",
+      "desc": "Easily create queries in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.6",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.6"
+          }
+        },
+        {
+          "name": "fusion",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/0.1.1"
+    }
+  ],
   "description": "A simple library to create queries in Nim.",
   "license": "MIT",
   "web": "https://github.com/David-Kunz/Nery",
   "refs": [
-    "fatal: unable to access 'https://github.com/David-Kunz/Nery/': SSL connection timeout",
+    "refs/heads/main",
+    "refs/tags/0.1.1",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "nery",
+      "version": "0.1.1",
+      "author": "Dr. David Alexander Kunz",
+      "desc": "Easily create queries in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.6",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.6"
+          }
+        },
+        {
+          "name": "fusion",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/main"
+    }
+  ]
 }
